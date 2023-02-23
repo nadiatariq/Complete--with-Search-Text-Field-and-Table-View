@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050E9A9729A77270004AA68B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E9A9629A77270004AA68B /* AppDelegate.swift */; };
+		050E9A9929A77270004AA68B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E9A9829A77270004AA68B /* SceneDelegate.swift */; };
+		050E9A9B29A77270004AA68B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E9A9A29A77270004AA68B /* ViewController.swift */; };
+		050E9A9E29A77270004AA68B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050E9A9C29A77270004AA68B /* Main.storyboard */; };
+		050E9AA029A77271004AA68B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 050E9A9F29A77271004AA68B /* Assets.xcassets */; };
+		050E9AA329A77271004AA68B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050E9AA129A77271004AA68B /* LaunchScreen.storyboard */; };
+		050E9AAE29A77271004AA68B /* SearchField_With_Section_Table_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E9AAD29A77271004AA68B /* SearchField_With_Section_Table_ViewTests.swift */; };
+		050E9AB829A77271004AA68B /* SearchField_With_Section_Table_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E9AB729A77271004AA68B /* SearchField_With_Section_Table_ViewUITests.swift */; };
+		050E9ABA29A77271004AA68B /* SearchField_With_Section_Table_ViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050E9AB929A77271004AA68B /* SearchField_With_Section_Table_ViewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		050E9AAA29A77271004AA68B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 050E9A8B29A77270004AA68B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050E9A9229A77270004AA68B;
+			remoteInfo = "SearchField With Section Table View";
+		};
+		050E9AB429A77271004AA68B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 050E9A8B29A77270004AA68B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050E9A9229A77270004AA68B;
+			remoteInfo = "SearchField With Section Table View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050E9A9329A77270004AA68B /* SearchField With Section Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SearchField With Section Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		050E9A9629A77270004AA68B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		050E9A9829A77270004AA68B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		050E9A9A29A77270004AA68B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		050E9A9D29A77270004AA68B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		050E9A9F29A77271004AA68B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		050E9AA229A77271004AA68B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		050E9AA429A77271004AA68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050E9AA929A77271004AA68B /* SearchField With Section Table ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchField With Section Table ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		050E9AAD29A77271004AA68B /* SearchField_With_Section_Table_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField_With_Section_Table_ViewTests.swift; sourceTree = "<group>"; };
+		050E9AB329A77271004AA68B /* SearchField With Section Table ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchField With Section Table ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		050E9AB729A77271004AA68B /* SearchField_With_Section_Table_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField_With_Section_Table_ViewUITests.swift; sourceTree = "<group>"; };
+		050E9AB929A77271004AA68B /* SearchField_With_Section_Table_ViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchField_With_Section_Table_ViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		050E9A9029A77270004AA68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050E9AA629A77271004AA68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050E9AB029A77271004AA68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050E9A8A29A77270004AA68B = {
+			isa = PBXGroup;
+			children = (
+				050E9A9529A77270004AA68B /* SearchField With Section Table View */,
+				050E9AAC29A77271004AA68B /* SearchField With Section Table ViewTests */,
+				050E9AB629A77271004AA68B /* SearchField With Section Table ViewUITests */,
+				050E9A9429A77270004AA68B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		050E9A9429A77270004AA68B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				050E9A9329A77270004AA68B /* SearchField With Section Table View.app */,
+				050E9AA929A77271004AA68B /* SearchField With Section Table ViewTests.xctest */,
+				050E9AB329A77271004AA68B /* SearchField With Section Table ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		050E9A9529A77270004AA68B /* SearchField With Section Table View */ = {
+			isa = PBXGroup;
+			children = (
+				050E9A9629A77270004AA68B /* AppDelegate.swift */,
+				050E9A9829A77270004AA68B /* SceneDelegate.swift */,
+				050E9A9A29A77270004AA68B /* ViewController.swift */,
+				050E9A9C29A77270004AA68B /* Main.storyboard */,
+				050E9A9F29A77271004AA68B /* Assets.xcassets */,
+				050E9AA129A77271004AA68B /* LaunchScreen.storyboard */,
+				050E9AA429A77271004AA68B /* Info.plist */,
+			);
+			path = "SearchField With Section Table View";
+			sourceTree = "<group>";
+		};
+		050E9AAC29A77271004AA68B /* SearchField With Section Table ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				050E9AAD29A77271004AA68B /* SearchField_With_Section_Table_ViewTests.swift */,
+			);
+			path = "SearchField With Section Table ViewTests";
+			sourceTree = "<group>";
+		};
+		050E9AB629A77271004AA68B /* SearchField With Section Table ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				050E9AB729A77271004AA68B /* SearchField_With_Section_Table_ViewUITests.swift */,
+				050E9AB929A77271004AA68B /* SearchField_With_Section_Table_ViewUITestsLaunchTests.swift */,
+			);
+			path = "SearchField With Section Table ViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		050E9A9229A77270004AA68B /* SearchField With Section Table View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050E9ABD29A77271004AA68B /* Build configuration list for PBXNativeTarget "SearchField With Section Table View" */;
+			buildPhases = (
+				050E9A8F29A77270004AA68B /* Sources */,
+				050E9A9029A77270004AA68B /* Frameworks */,
+				050E9A9129A77270004AA68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SearchField With Section Table View";
+			productName = "SearchField With Section Table View";
+			productReference = 050E9A9329A77270004AA68B /* SearchField With Section Table View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		050E9AA829A77271004AA68B /* SearchField With Section Table ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050E9AC029A77271004AA68B /* Build configuration list for PBXNativeTarget "SearchField With Section Table ViewTests" */;
+			buildPhases = (
+				050E9AA529A77271004AA68B /* Sources */,
+				050E9AA629A77271004AA68B /* Frameworks */,
+				050E9AA729A77271004AA68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				050E9AAB29A77271004AA68B /* PBXTargetDependency */,
+			);
+			name = "SearchField With Section Table ViewTests";
+			productName = "SearchField With Section Table ViewTests";
+			productReference = 050E9AA929A77271004AA68B /* SearchField With Section Table ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		050E9AB229A77271004AA68B /* SearchField With Section Table ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050E9AC329A77271004AA68B /* Build configuration list for PBXNativeTarget "SearchField With Section Table ViewUITests" */;
+			buildPhases = (
+				050E9AAF29A77271004AA68B /* Sources */,
+				050E9AB029A77271004AA68B /* Frameworks */,
+				050E9AB129A77271004AA68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				050E9AB529A77271004AA68B /* PBXTargetDependency */,
+			);
+			name = "SearchField With Section Table ViewUITests";
+			productName = "SearchField With Section Table ViewUITests";
+			productReference = 050E9AB329A77271004AA68B /* SearchField With Section Table ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		050E9A8B29A77270004AA68B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					050E9A9229A77270004AA68B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					050E9AA829A77271004AA68B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 050E9A9229A77270004AA68B;
+					};
+					050E9AB229A77271004AA68B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 050E9A9229A77270004AA68B;
+					};
+				};
+			};
+			buildConfigurationList = 050E9A8E29A77270004AA68B /* Build configuration list for PBXProject "SearchField With Section Table View" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 050E9A8A29A77270004AA68B;
+			productRefGroup = 050E9A9429A77270004AA68B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				050E9A9229A77270004AA68B /* SearchField With Section Table View */,
+				050E9AA829A77271004AA68B /* SearchField With Section Table ViewTests */,
+				050E9AB229A77271004AA68B /* SearchField With Section Table ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		050E9A9129A77270004AA68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050E9AA329A77271004AA68B /* LaunchScreen.storyboard in Resources */,
+				050E9AA029A77271004AA68B /* Assets.xcassets in Resources */,
+				050E9A9E29A77270004AA68B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050E9AA729A77271004AA68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050E9AB129A77271004AA68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		050E9A8F29A77270004AA68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050E9A9B29A77270004AA68B /* ViewController.swift in Sources */,
+				050E9A9729A77270004AA68B /* AppDelegate.swift in Sources */,
+				050E9A9929A77270004AA68B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050E9AA529A77271004AA68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050E9AAE29A77271004AA68B /* SearchField_With_Section_Table_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		050E9AAF29A77271004AA68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050E9AB829A77271004AA68B /* SearchField_With_Section_Table_ViewUITests.swift in Sources */,
+				050E9ABA29A77271004AA68B /* SearchField_With_Section_Table_ViewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		050E9AAB29A77271004AA68B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 050E9A9229A77270004AA68B /* SearchField With Section Table View */;
+			targetProxy = 050E9AAA29A77271004AA68B /* PBXContainerItemProxy */;
+		};
+		050E9AB529A77271004AA68B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 050E9A9229A77270004AA68B /* SearchField With Section Table View */;
+			targetProxy = 050E9AB429A77271004AA68B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		050E9A9C29A77270004AA68B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050E9A9D29A77270004AA68B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		050E9AA129A77271004AA68B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050E9AA229A77271004AA68B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		050E9ABB29A77271004AA68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		050E9ABC29A77271004AA68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		050E9ABE29A77271004AA68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DF6LR9YW7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SearchField With Section Table View/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tharsol.SearchField-With-Section-Table-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		050E9ABF29A77271004AA68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DF6LR9YW7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SearchField With Section Table View/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tharsol.SearchField-With-Section-Table-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		050E9AC129A77271004AA68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DF6LR9YW7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tharsol.SearchField-With-Section-Table-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchField With Section Table View.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SearchField With Section Table View";
+			};
+			name = Debug;
+		};
+		050E9AC229A77271004AA68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DF6LR9YW7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tharsol.SearchField-With-Section-Table-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SearchField With Section Table View.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SearchField With Section Table View";
+			};
+			name = Release;
+		};
+		050E9AC429A77271004AA68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DF6LR9YW7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tharsol.SearchField-With-Section-Table-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SearchField With Section Table View";
+			};
+			name = Debug;
+		};
+		050E9AC529A77271004AA68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DF6LR9YW7Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tharsol.SearchField-With-Section-Table-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SearchField With Section Table View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		050E9A8E29A77270004AA68B /* Build configuration list for PBXProject "SearchField With Section Table View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050E9ABB29A77271004AA68B /* Debug */,
+				050E9ABC29A77271004AA68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050E9ABD29A77271004AA68B /* Build configuration list for PBXNativeTarget "SearchField With Section Table View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050E9ABE29A77271004AA68B /* Debug */,
+				050E9ABF29A77271004AA68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050E9AC029A77271004AA68B /* Build configuration list for PBXNativeTarget "SearchField With Section Table ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050E9AC129A77271004AA68B /* Debug */,
+				050E9AC229A77271004AA68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050E9AC329A77271004AA68B /* Build configuration list for PBXNativeTarget "SearchField With Section Table ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050E9AC429A77271004AA68B /* Debug */,
+				050E9AC529A77271004AA68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 050E9A8B29A77270004AA68B /* Project object */;
+}
